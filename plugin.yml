@@ -1,0 +1,7 @@
+name: AkariGangs
+version: 1.0.0
+description: Gangs Plugin in BetterAltay for Minigames
+api: 3.0.0
+main: Akari\Main
+author: Akari_my
+depend: [PureChat]
