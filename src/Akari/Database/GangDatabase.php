@@ -259,9 +259,6 @@ class GangDatabase{
     }
 
     public function getGangLeader(string $gangName): ?string {
-        // Implementa la logica per ottenere il leader della gang utilizzando il nome della gang
-        // Restituisci il nome del leader della gang o null se la gang non esiste
-
         if (isset($this->gangs[$gangName])) {
             return $this->gangs[$gangName]["leader"];
         }
